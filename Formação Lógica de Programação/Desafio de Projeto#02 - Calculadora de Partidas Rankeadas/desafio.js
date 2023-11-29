@@ -1,3 +1,5 @@
+// #02 - Desafio Calculadora de Partidas Rankeadas
+
 let qtdVitorias = 100
 let qtdDerrotas = 30
 let nivel = ""
