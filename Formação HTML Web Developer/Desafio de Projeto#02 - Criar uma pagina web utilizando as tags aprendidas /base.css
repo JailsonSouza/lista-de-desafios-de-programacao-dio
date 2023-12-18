@@ -1,0 +1,152 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+    border: 5px #454C54 solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 25%;
+    background-color: white;
+    margin-right: 50px;
+}
+.header {
+    background-color: #454C54;
+    min-height: 150px;
+    border-left: 5px #454C54 solid;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 30px;
+    font-family: 'Intervogue Soft Alt Medium';
+    border-left: 5px #454C54 solid;
+    font-size: 22px;
+    text-align: justify;
+}
+.footer {
+    border-left: 5px #454C54 solid;
+    background-color: #4ED9B9;
+    text-align: center;
+    min-height: 50px;
+}
+
+ul {
+    text-align: left;
+}
+
+ul :hover {
+    background-color: #4ED9B9;
+}
+
+li {
+    border-radius: 10px;
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+    font-size: large;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+a {
+    font-family: Georgia, 'Times New Roman', Times, serif, Times, serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+#name-toypet {
+    font-family: Georgia, 'Times New Roman', Times, serif, Times, serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: normal;
+    margin-bottom: 30px;
+    margin-top: -55px;
+    text-align: center;
+    font-size: x-large;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #4ED9B9;
+  }
+
+  caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  #contact-info {
+    margin-bottom: 20px;
+  }
+
+  form {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #4ED9B9;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: right;
+  }
+
+  button:hover {
+    background-color: #34ac90;
+  }
+
+  button, input[type="reset"] {
+    margin-right: 10px;
+  }
+
+  .social-icons > svg{
+    margin-left: 20px;
+  }
