@@ -1,0 +1,135 @@
+#pokemons-presentation {
+    max-width: inherit;
+    padding: 1px;
+    background-color: #46D1B2;
+    border-radius: 40px 40px 0 0;
+}
+
+#top-menu {
+    width: inherit;
+    margin-top: 60px;
+    padding: 40px 40px 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#top-menu > span {
+    padding: 10px;
+    margin: 5px;
+}
+
+.pokemon {
+    padding: 20px 60px;
+    background-color: #46D1B2;
+}
+
+.pokemon > li {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+}
+
+.pokemon > li > .name {
+    margin: 0;
+    padding: 0;
+    width: 85%;
+    font-size: 64px;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+.pokemon > li > .number {
+    margin: 30px 0 0 0;
+    padding: 0;
+    width: 15%;
+    font-size: 32px;
+    font-weight: 800;
+    color: #fff;
+    text-align: right;
+}
+
+.types {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 60px;
+}
+
+.types .type {
+    background-color: #5DE0C7;
+    padding: 8px 35px;
+    list-style-type: none;
+    width: auto;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.details-pokemon {
+    margin: 0;
+    padding: 60px;
+    background-color: #fff;
+    border: 1px solid #808080;
+    border-radius: 50px;
+    margin-top: -70px;
+}
+
+.details-pokemon > #bottom-menu {
+    padding: 0;
+}
+
+.details-pokemon > menu > ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.details-pokemon > menu > ul > a {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    color: #000;
+}
+.details-pokemon > menu > ul > a > li {
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.details-pokemon > table {
+    margin-top: 260px;
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.details-pokemon > table > tbody {
+    padding: 0;
+    margin: 0;
+}
+
+.details-pokemon > table > tbody > tr {
+    padding: 0;
+    margin: 0;
+}
+
+.details-pokemon > table > tbody > tr > td {
+    margin: 0;
+    padding: 8px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 400;
+}
+.details-pokemon > table > tbody > tr > td > span {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.details-pokemon > h2 {
+    margin: 0;
+    padding: 30px 0 0px 5px;
+    font-size: 28px;
+}

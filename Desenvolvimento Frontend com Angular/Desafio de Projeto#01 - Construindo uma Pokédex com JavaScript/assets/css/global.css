@@ -1,0 +1,22 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 200px;
+}
+
+body {
+    background-color: #f6f8fce0;
+    max-width: inherit;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+figure > img {
+    margin: 0;
+    padding: 0;
+    width: 400px;
+}
